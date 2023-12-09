@@ -1,0 +1,47 @@
+.banner--wrapper {
+  position: relative;
+  background-size: cover;
+  height: 448px;
+  width: 100%;
+  overflow: hidden;
+}
+.banner--wrapper > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.movie--title {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.movie--title > h1 {
+  font-size: 60px;
+}
+.movie--description {
+  width: 400px;
+  max-height: 150px;
+  overflow-y: scroll;
+}
+.movie--description::-webkit-scrollbar {
+  display: none;
+}
+.play--button,
+.info--button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.play--button {
+  background: #ffff;
+}
+.play--button > i {
+  margin-right: 5px;
+}
+.info--button {
+  background: rgb(50, 50, 50);
+  color: #fff;
+}

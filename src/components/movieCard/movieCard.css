@@ -1,0 +1,21 @@
+.title {
+  margin: 10px 20px;
+}
+.cards {
+  display: flex;
+  padding: 10px;
+  overflow-x: scroll;
+}
+.cards::-webkit-scrollbar {
+  display: none;
+}
+.cards > img {
+  width: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cards > img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
